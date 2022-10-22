@@ -36,7 +36,7 @@
 	},
 
 	"mounts": [
-		"source=my-frontend-node_modules-${containerWorkspaceFolderBasename},target=${containerWorkspaceFolder}/node_modules,type=volume"
+		"source=mmy-frontend-node_modules-${containerWorkspaceFolderBasename},target=${containerWorkspaceFolder}/node_modules,type=volume"
 	],
 
 
