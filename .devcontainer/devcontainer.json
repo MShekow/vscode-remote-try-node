@@ -35,6 +35,11 @@
 		}
 	},
 
+	"mounts": [
+		"source=my-frontend-node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume"
+	],
+
+
 	// Use 'otherPortsAttributes' to configure any ports that aren't configured using 'portsAttributes'.
 	// "otherPortsAttributes": {
 	// 		"onAutoForward": "silent"
